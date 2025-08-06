@@ -59,7 +59,6 @@ Ensure `MazGenerator.py` is present in the same directory.
 ```
 
 ---
-
 ## Future Enhancements
 - Animated Exit Portal Effect
 - Timer & Score Tracking
