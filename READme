@@ -1,0 +1,66 @@
+# MazMagic - 3D Maze Explorer with Minimap
+
+MazMagic is an interactive 3D Maze Exploration game built using **Python, ModernGL, and Pygame**. The player navigates through a procedurally generated maze, with a live **2D Minimap overlay** to assist in navigation. The goal is to reach the designated **Exit Point**.
+
+---
+
+## Features
+- **3D Maze Visualization** (ModernGL rendering)
+- **Split Screen View**: Left side 3D Maze, Right side Minimap
+- **Real-time Player Movement (WASD + Arrow keys)**
+- **Collision Detection with Maze Walls**
+- **Exit Goal Indicator (highlighted in red)**
+- Smooth integrated gameplay in a single window
+
+---
+
+## Requirements
+- Python 3.8+
+- Pygame
+- ModernGL
+- Pyrr (for Vector and Matrix math)
+
+### Install Dependencies
+```bash
+pip install pygame moderngl pyrr
+```
+
+---
+
+## How to Run
+```bash
+python MazMagic_SplitView.py
+```
+Ensure `MazGenerator.py` is present in the same directory.
+
+---
+
+## Controls
+| Key            | Action                        |
+|----------------|-------------------------------|
+| W / S           | Move Forward / Backward        |
+| A / D           | Strafe Left / Right            |
+| Arrow Left/Right| Rotate View                    |
+
+---
+
+## Gameplay Objective
+- Navigate through the maze.
+- Use the **Minimap (right panel)** to visualize your position.
+- Reach the **Exit Goal (red block)** to complete the maze.
+
+---
+
+## Project Structure
+```
+├── MazMagic_SplitView.py  # Main Game Script
+├── MazGenerator.py        # Maze generation logic
+└── README.md               # Project Information
+```
+
+---
+
+## Future Enhancements
+- Animated Exit Portal Effect
+- Timer & Score Tracking
+- Maze Difficulty Levels
