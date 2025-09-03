@@ -5,11 +5,11 @@ MazMagic is an interactive 3D Maze Exploration game built using **Python, Modern
 ---
 
  Features
-- **3D Maze Visualization** (ModernGL rendering)
-- **Split Screen View**: Left side 3D Maze, Right side Minimap
-- **Real-time Player Movement (WASD + Arrow keys)**
-- **Collision Detection with Maze Walls**
-- **Exit Goal Indicator (highlighted in red)**
+-3D Maze Visualization** (ModernGL rendering)
+-Split Screen View**: Left side 3D Maze, Right side Minimap
+- Real-time Player Movement (WASD + Arrow keys)**
+- Collision Detection with Maze Walls**
+- Exit Goal Indicator (highlighted in red)**
 - Smooth integrated gameplay in a single window
 
 ---
