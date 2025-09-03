@@ -27,12 +27,12 @@ pip install pygame moderngl pyrr
 
 ---
 
- How to Run
+ *How to Run*
 
 git clone https://github.com/ASSA2004/MazeMagic3D-2D.git
 cd MazeMagic3D-3D
 pip install -r requirements.txt
-python 
+python MazMagic.py
 
 
 Ensure `MazGenerator.py` is present in the same directory.
@@ -57,7 +57,7 @@ Gameplay Objective
 
  Project Structure
 
-├── MazMagic_SplitView.py  # Main Game Script
+├── MazMagic.py  # Main Game Script
 ├── MazGenerator.py        # Maze generation logic
 └── README.md               # Project Information
 
