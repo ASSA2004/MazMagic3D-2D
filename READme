@@ -29,7 +29,11 @@ pip install pygame moderngl pyrr
 
  How to Run
 
-python MazMagic_SplitView.py
+git clone https://github.com/ASSA2004/MazeMagic3D-2D.git
+cd MazeMagic3D-3D
+pip install -r requirements.txt
+python 
+
 
 Ensure `MazGenerator.py` is present in the same directory.
 
